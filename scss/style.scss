@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+} 
+
+@import "base/colours.scss";
+@import "base/fonts.scss";
+@import "components/header";
+@import "components/footer";
+@import "components/bienvenidos";
+@import "components/productos";
+@import "components/admin";
+@import "components/login";
+@import "components/calculadora";
+@import "components/tracking";
+@import "base/queries.scss";

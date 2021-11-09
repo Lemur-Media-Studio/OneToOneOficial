@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f2f2acd656.js" crossorigin="anonymous"></script>
+
+  <!-- iluminacion palabras -->
+  <style>
+    ::-moz-selection {
+      color: #002A3C;
+      background: #B4AC9D;
+    }
+
+    ::selection {
+      color: #002A3C;
+      background: #B4AC9D;
+    }
+  </style>
+
+  <title>Calculadora - One to One Trade Consulting</title>
+</head>
+
+<body class="body-calculadora">
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="https://one-oneconsulting.com"><img src="img/logo.png" alt="Logo de One to One"
+            class="logo-one"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://one-oneconsulting.com">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="calculadora.html">Calculadora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ecomm/ecomm.html">Tienda</a>
+            </li>
+            <li class="nav-item last-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <div class="social-mobile d-flex">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/OneToOne.Consultancy" target="_blank"
+                  class="redes fa fa-facebook"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.twitter.com/onetooneok" target="_blank" class="redes fa fa-twitter"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/company/onetooneok" target="_blank" class="redes fa fa-linkedin"></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/onetooneok" target="_blank" class="redes fa fa-instagram"></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- seccion calculadora -->
+  <div class="container">
+    <section class="container section-container-calculadora">
+      <div class="fondo-calculadora mt-5">
+        <h1 class="titulo-calculadora">Calculadora de envío</h1>
+        <p class="parrafo-calculadora"><strong>o</strong> El costo del envío varía en relación al peso final del
+          paquete.
+        </p>
+        <h4 class="subtitulo-calculadora">¡Envío gratis a Capital Federal!</h4>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-6">
+            <p class="titulo-inputs-calculadora">¿Qué desea comprar?</p>
+            <div class="input-group mb-3">
+              <select class="form-select opcion-input" id="Select1">
+                <option selected class="opciones-box-input">Ningún producto seleccionado...</option>
+                <option value="0" class="opciones-box-input" id="idcategoria">Accesorios</option>
+                <option value="0" class="opciones-box-input">Accesorios de electrónica, audio, foto y video</option>
+                <option value="0" class="opciones-box-input">Belleza y salud</option>
+                <option value="0" class="opciones-box-input">Biberones, Mamaderas</option>
+                <option value="0" class="opciones-box-input">Carritos de bebé</option>
+                <option value="100" class="opciones-box-input">Computadoras, Notebooks, Laptops (+USD100)</option>
+                <option value="70" class="opciones-box-input">Tablets (+USD70)</option>
+                <option value="0" class="opciones-box-input">Deportes y entretenimiento</option>
+                <option value="0" class="opciones-box-input">Hogar</option>
+                <option value="0" class="opciones-box-input">Joyería</option>
+                <option value="0" class="opciones-box-input">Juguetes</option>
+                <option value="0" class="opciones-box-input">Luces e iluminación</option>
+                <option value="0" class="opciones-box-input">Relojes – incluyendo Smartwatch</option>
+                <option value="0" class="opciones-box-input">Ropa</option>
+                <option value="0" class="opciones-box-input">Sillas de bebé</option>
+                <option value="0" class="opciones-box-input">Zapatos y zapatillas</option>
+                <option value="0" class="opciones-box-input">Otros</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-6">
+            <p class="titulo-inputs-calculadora">País de procedencia</p>
+            <div class="input-group mb-3">
+              <select class="form-select opcion-input" id="Select2">
+                <option selected class="opciones-box-input">Ningún país seleccionado...</option>
+                <option value="70" class="opciones-box-input">Estados Unidos</option>
+                <option value="85" class="opciones-box-input">China</option>
+              </select>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <p class="titulo-inputs-calculadora">¿Cuánto cuesta su pedido?</p>
+            <div class="input-group mb-3">
+              <label class="input-group-text subtitulo-inputs-calculadora position-subtitulo1"
+                for="inputGroupSelect01"><strong>USD</strong></label>
+              <input type="number" class="form-control inputs-calculadora1"
+                aria-label="Text input with segmented dropdown button" id="idvalor">
+            </div>
+          </div>
+          <div class="col-6">
+            <p class="titulo-inputs-calculadora">¿Cuál es el peso de su compra?</p>
+            <div class="input-group mb-3">
+              <input type="number" class="form-control inputs-calculadora2"
+                aria-label="Text input with segmented dropdown button" id="idpeso">
+              <label class="input-group-text subtitulo-inputs-calculadora position-subtitulo2"
+                for="inputGroupSelect02"><strong>KG</strong></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="vstack gap-2 col-md-5 mx-auto">
+          <button type="button" class="btn btn-dark boton-calculadora" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop" onclick="calculo()"><img src="img/calculadora-01.png" height="50"
+              alt="calculadora">CALCULAR</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header modal-calculadora">
+                  <h5 class="modal-title titulo-modal" id="staticBackdropLabel">Costo de importación</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5 class="categoria-modal" id="categoria1"></h5>
+                  <p class="texto-modal" id="productoenvio"></p>
+                  <p class="texto-modal" id="productofinal"></p>
+                  <p id="eeuu"></p>
+                  <p id="china"></p>
+                </div>
+                <div class="modal-footer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- 
+  --------------------------------------------------------------------------
+  --------------------------------------------------------------------------
+  --------------------------------------------------------------------------
+  -->
+
+    <!-- ACCORDION LEGALES -->
+    <section class="section-container-accordion">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item accordion-item1">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button accordion-boton1 btn-dark collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              o LEGALES
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h4 class="titulo-accordion">Productos prohibidos:</h4>
+              <h5 class="subtitulo-accordion">Los siguientes productos están prohibidos o restringidos, por lo que
+                solicitamos que antes de la compra
+                nos
+                consulten.</h5>
+
+              <p><strong>o</strong> Medicamentos y productos para el cuidado de la salud</p>
+              <p><strong>o</strong> Cuidado industrial: kit de primeros auxilios.</p>
+              <p><strong>o</strong> Bienes preciosos: oro, plata, platino, piedras preciosas, relojes con oro, plata o
+                piedras preciosas.</p>
+              <p><strong>o</strong> Accesorios de vehículos:</p>
+              <p><strong>o</strong> Cuadriciclos y motos: cascos y defensas.</p>
+              <p><strong>o</strong> Autos y van: accesorios internos y externos.</p>
+              <p><strong>o</strong> Audio del vehículo: ventanas traseras.</p>
+              <p><strong>o</strong> Llanta: para automóviles, para camiones y para motos.</p>
+              <p><strong>o</strong> Neumáticos: cámaras de ruedas, cubiertas de ruedas para motos, neumáticos para
+                coches
+                y furgonetas.</p>
+              <p><strong>o</strong> Repuestos para automóviles y camiones: componentes de seguridad, vidrios, frenos,
+                luces, interiores. y
+                refacciones externas, suspensiones, dirección y transmisiones.</p>
+              <p><strong>o</strong> Repuestos para motos: chasis.</p>
+              <p><strong>o</strong> Afinación y rendimiento: cromado, afinación de iluminación, polarizado.</p>
+              <p><strong>o</strong> Bebidas blancas.</p>
+              <p><strong>o</strong> Alimentos: productos de manufactura casera, carnes de cualquier especie animal,
+                chacinados, embutidos,
+                jamones, miel, productos y derivados lácteos, alimentos sin identificación o rótulo.</p>
+              <p><strong>o</strong> Vegetales: frutas y hortalizas frescas; flores y plantas de jardín; plantas
+                frutales,
+                ornamentales y
+                forestales; vegetales y sus partes (semillas, raíces, yemas, etc.).</p>
+              <p><strong>o</strong> Otros productos: alimentos para animales, productos apícolas (cera, propóleo, etc.),
+                productos
+                veterinarios (sueros, vacunas y otros), insectos, bacterias, hongos, material reproductivo y otros
+                microorganismos para investigación.</p>
+              <p><strong>o</strong> Objetos de valor (obras de arte).</p>
+              <p><strong>o</strong> Valores al Portador (cheques, acciones, bonos, etc.).</p>
+              <p><strong>o</strong> Papel moneda.</p>
+              <p><strong>o</strong> Monedas metálicas.</p>
+              <p><strong>o</strong> Platino, oro o plata, manufacturados o no.</p>
+              <p><strong>o</strong> Pedrería (piedras preciosas, diamantes, esmeraldas, etc.).</p>
+              <p><strong>o</strong> Alhajas y otros objetos preciosos, incluso perlas naturales, de cultivo o
+                sintéticas.
+              </p>
+              <p><strong>o</strong> Armas de fuego, pólvoras, municiones y afines.</p>
+              <p><strong>o</strong> Corrosivos.</p>
+              <p><strong>o</strong> Explosivos.</p>
+              <p><strong>o</strong> Gases comprimidos y aerosoles.</p>
+              <p><strong>o</strong> Líquidos inflamables.</p>
+              <p><strong>o</strong> Materiales oxidantes.</p>
+              <p><strong>o</strong> Sólidos inflamables.</p>
+              <p><strong>o</strong> Venenos: líquido, sólido o gas.</p>
+              <p><strong>o</strong> Animales vivos o especies vegetales vivientes.</p>
+              <p><strong>o</strong> Asbestos (amianto).</p>
+              <p><strong>o</strong> Drogas, narcóticos o estupefacientes prohibidas por ley: cocaína, marihuana, opio,
+                morfina; los
+                estupefacientes, narcóticos y los medicamentos psicotrópicos y psicofármacos en general.</p>
+              <p><strong>o</strong> Material biológico.</p>
+              <p><strong>o</strong> Material radioactivo.</p>
+              <p><strong>o</strong> Pinturas, barnices y sustancias similares.</p>
+              <p><strong>o</strong> Polvos secos colorantes y no colorantes.</p>
+              <p><strong>o</strong> Baterías de más de 20Wh.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION PREGUNTAS FRECUENTES -->
+      <div class="accordion-item accordion-item2 mt-3">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button accordion-boton2 btn-dark collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            o PREGUNTAS FRECUENTES
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h4 class="titulo-accordion">¿Cómo funciona el servicio?</h4>
+            <h5 class="titulo-accordion">Servicio Courier: </h5>
+
+            <p><strong>¿Cómo comprar?</strong></p>
+            <p><strong>1.</strong> Haces tu(s) pedido(s) en tu(s) tienda(s) favorita(s).</p>
+            <p><strong>2.</strong> Mandas todo nuestra dirección en Miami o Los Angeles USA, según te indiquemos.</p>
+            <p><strong>3.</strong> Nos informas de tus compras: nos mandas por email el pedido completo, así lo
+              seguimos.</p>
+            <p><strong>4.</strong> Nosotros nos encargamos de que llegue todo a tu casa.</p>
+
+            <p><strong>Precios de envío local (aproximados):</strong></p>
+            <p><strong>o</strong> CABA (incluido)</p>
+            <p><strong>o</strong> GBA (+usd15)</p>
+            <p><strong>o</strong> Interior (+usd20)</p>
+            <p><strong>o</strong> Interior Prioritario (+usd25)</p>
+
+            <p><strong>¿Cómo se paga?</strong></p>
+            <p>Una vez que llega todo a nuestro depósito, te mandamos una factura con el peso y precio final a través
+              de
+              nuestro sistema.</p>
+            <p>Métodos de Pago:</p>
+            <p>Tarjeta de crédito (compra en el exterior), PayPal, Venmo, Zelle, Transferencia (solo USA). NO
+              aceptamos
+              pesos argentinos por el momento.</p>
+
+            <p><strong>¿Cuánto tarda?</strong></p>
+            <p>En promedio, calculamos 10 días hábiles desde que tus cosas llegan a nuestra oficina.</p>
+
+            <p><strong>¿Cómo cuentan el peso?</strong></p>
+            <p>El mínimo es 1kg. A partir de allí cobramos cada 500gr (0.50kg). </p>
+
+            <p class="titulo-accordion">Importante:</p>
+            <p>Productos que tienen mucho peso volumétrico pueden tardar más tiempo en llegar,
+              puede requerir más información, pueden no poder traerse o puede variar el precio.
+              Por favor consultarnos para más información.
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!-- FIN ACCORDION -->
+
+  <!-- 
+  --------------------------------------------------------------------------
+  --------------------------------------------------------------------------
+  --------------------------------------------------------------------------
+  -->
+
+  <!-- FOOTER -->
+  <footer id="footer" class="mt-5">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contacto</h4>
+            <p>
+              645 W. 9TH ST. <br>
+              Los Angeles. CA [90015]<br>
+              Estados Unidos de América <br><br>
+              <strong>Teléfono:</strong> [+1] 213 306 6554<br>
+              <strong>Email:</strong> info@one-oneconsulting.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Enlaces de interés</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://one-oneconsulting.com">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Clientes</a>
+              <li><i class="bx bx-chevron-right"></i> <a href="calculadora.html">Calculadora</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./ecomm/ecomm.html">Tienda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <!--             <h4>Servicios</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Maíz</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Soja</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Cebada</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Harina</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <h4>Síganos en nuestras redes</h4>
+            <p class="p-footer">Manténganse al tanto de todas las novedades de One to One Trade Consulting.</p>
+            <div class="social-links text-left pt-3 pt-md-0 mt-2">
+              <a href="https://www.facebook.com/OneToOne.Consultancy" target="_blank" class="redes fa fa-facebook"></a>
+              <a href="https://www.twitter.com/onetooneok" target="_blank" class="redes fa fa-twitter"></a>
+              <a href="https://www.linkedin.com/company/onetooneok" target="_blank" class="redes fa fa-linkedin"></a>
+              <a href="https://www.instagram.com/onetooneok" target="_blank" class="redes fa fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>One to One Trade Consulting</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed & developed by Lemur Media Studio</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <img src="img/logo.png" alt="Logo One to One" height="40">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <!-- Scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+  <script src="scripts/calcu.js"></script>
+
+
+
+
+
+</body>
+
+</html>

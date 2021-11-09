@@ -1,0 +1,92 @@
+.modal-header {
+    border: none;
+}
+
+.login-border {
+    border: 25px solid rgba(166, 175, 179, 0.507) !important;
+    border-radius: 40px !important; 
+}
+
+.modal-content {
+    background-color: white !important;
+    border: 1px solid rgba(132, 125, 114, 0.507) !important;
+    border-radius: 15px !important;
+}
+
+.login-border-iniciar {
+    border-bottom: 1px solid $beige-medio !important;
+    padding: 15px;
+}
+
+.login-boton-cierre {
+    position: relative;
+    left: 335px !important;
+}
+
+.login-boton-cierre-2 {
+    position: relative;
+    left: 415px !important;
+}
+
+.form-index {
+    background-color: rgb(166, 175, 179) !important;
+    border: 1px $azul solid !important;
+    border-radius: 15px !important;
+    color: #3f545b !important;
+}
+
+.form-label {
+    font-family: BentonBook !important;
+    font-size: 12px !important;
+}
+
+.form-label {
+    color: #3F545B !important;
+}
+
+.login-iniciar {
+    background-color: $azul !important;
+    border: 1px $beige-medio solid !important;
+    border-radius: 15px !important;
+    color: white !important;
+    font-family: BentonBlack !important;
+    font-size: 15px !important;
+}
+
+.login-iniciar-rs {
+    background-color: $azul !important;
+    border: 1px $beige-medio solid !important;
+    border-radius: 15px !important;
+    color: white !important;
+    font-family: BentonMedium !important;
+    font-size: 15px !important;
+}
+
+.olvido-contraseña {
+    font-family: BentonBook !important;
+    font-size: 10px !important;
+    font-style: italic !important;
+} 
+
+.login-cursiva {
+    font-family: BentonBook !important;
+    font-size: 12px !important;
+    font-style: italic !important;
+}
+
+.form-control1 {
+    background-color: rgb(166, 175, 179) !important;
+    border: 1px $azul solid !important;
+    border-radius: 15px !important;
+    color: #3f545b !important;
+}
+ 
+.modal-body {
+    .login-crear-cuenta {
+    color: $azul !important;
+    font-family: BentonBlack !important;
+    font-size: 22px !important;
+    }
+}  
+
+

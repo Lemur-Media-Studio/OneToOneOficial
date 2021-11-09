@@ -1,0 +1,207 @@
+/* Calculadora */
+.body-calculadora {
+    background-image: url(../img/fondo-calculadora3.jpg);
+    background-position-y: 950px !important;
+}
+
+.section-container-calculadora {
+    padding: 100px 0 0 0;
+}
+
+.fondo-calculadora {
+    background-color: rgba($color: white, $alpha: 0.8) !important;
+    border-radius: 60px;
+    padding: 60px 50px;
+}
+
+.titulo-calculadora {
+    text-align: center;
+    color: $azul;
+    font-size: 45px;
+    position: relative;
+    bottom: 20px;
+    font-family: "BentonMedium";
+}
+
+.subtitulo-calculadora {
+    color: red;
+    font-size: 20px;
+    font-family: "BentonBook";
+}
+
+.parrafo-calculadora {
+    background-color: $beige-claro;
+    color: $beige-oscuro;
+    padding: 10px 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 20px;
+    font-family: "BentonBook";
+}
+
+.titulo-inputs-calculadora {
+    font-size: 18px;
+    position: relative !important;
+    top: 8px !important;
+    font-family: "BentonBook" !important;
+}
+
+.subtitulo-inputs-calculadora {
+    background-color: none !important;
+    border: none !important;
+    font-size: 18px;
+    font-family: "BentonBook";
+}
+
+.input-group-text {
+    background-color: transparent !important;
+}
+
+.position-subtitulo1 {
+    position: relative;
+    right: 12px;
+}
+
+.position-subtitulo2 {
+    position: relative;
+    left: 12px;
+}
+
+.inputs-calculadora1 {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    color: $beige-medio !important;
+    font-size: 18px !important;
+    font-family: "BentonBook";
+    margin-left: -11px !important;
+    border: 1px solid $beige-claro !important;
+}
+
+.inputs-calculadora2 {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    color: $beige-medio !important;
+    font-size: 18px !important;
+    font-family: "BentonBook";
+    margin-right: -11px !important;
+    border: 1px solid $beige-claro !important;
+}
+
+.opcion-input {
+    color: $beige-medio !important;
+    font-size: 18px !important;
+    border: 1px solid $beige-claro !important;
+}
+
+.opciones-box-input {
+    background-color: rgb(202, 202, 202) !important;
+    color: rgb(122, 122, 122) !important;
+    font-family: "BentonBook";
+}
+
+.boton-calculadora {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: $azul !important;
+    font-size: 20px;
+    font-family: "BentonBlack";
+    border-radius: 35px !important;
+    padding: 5px 22px !important;
+    margin: 0px 100px !important;
+    position: relative;
+    top: 15px;
+}
+
+.form-select {
+    background-image: url(../img/flecha.png) !important;
+    background-size: 15px 10px !important;
+}
+
+/* modal */
+
+.modal-calculadora {
+    background-color: $beige-medio !important;
+}
+
+.titulo-modal {
+    color: white !important;
+    font-family: "BentonMedium";
+    font-size: 22px;
+}
+
+.categoria-modal {
+    font-size: 20px;
+    font-family: "BentonBook";
+    margin: 0px 0px 10px 0px;
+}
+
+.texto-modal {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "BentonBook";
+}
+
+.exclamacion-modal {
+    background-color: #ffd4d4;
+    color: red;
+    text-align: center;
+    padding: 10px 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 16px;
+    font-family: "BentonBook";
+}
+
+/* Acordion */
+.accordion-item1 {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.accordion-item2 {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.section-container-accordion {
+    padding: 80px 20px 20px 20px;
+}
+
+.accordion-boton1 {
+    background-color: white !important;
+    color: $azul !important;
+    font-size: 25px !important;
+    font-family: "BentonBlack";
+    border: solid 3px $azul !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.accordion-boton2 {
+    background-color: white !important;
+    color: $azul !important;
+    font-size: 25px !important;
+    font-family: "BentonBlack";
+    border: solid 3px $azul !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.accordion-body {
+    padding: 30px 45px !important;
+    font-size: 20px;
+    font-family: "BentonBook";
+}
+
+.titulo-accordion {
+    font-size: 30px;
+    padding: 10px 0;
+    font-family: "BentonMedium";
+}
+
+.subtitulo-accordion {
+    padding: 0px 0px 10px 0px !important;
+}

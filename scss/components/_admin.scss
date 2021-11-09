@@ -1,0 +1,123 @@
+.admin-body {
+    background-image: url(../img/fondo-calculadora3.jpg);
+    background-position-y: 950px !important;
+}
+
+.container-usuarios-productos {
+    padding-bottom: 60px !important;
+}
+
+.admin-header{
+    background-color: $azul !important;
+}
+
+.admin-titulo {
+    background-color: $beige-claro;
+    font-family: "BentonMedium" !important;
+    color: $azul;
+    padding-top: 80px;
+}
+
+.admin-form {
+    font-family: "BentonBook" !important;
+    font-size: 18px !important;
+    color: black !important;
+    background-color: rgba(141, 147, 148, 0.849) !important;
+    margin: 5px;
+    border: solid 2px $beige-oscuro;
+}
+
+.admin-form::placeholder { 
+    color: $beige-oscuro; 
+}
+
+.titulo-info-admin {
+    font-family: "BentonBlack";
+}
+
+.admin-datos{
+    font-family: "BentonBook" !important;
+    font-size: 18px !important;
+    color: $azul !important;
+    background-color: #fff !important;
+    margin: 5px;
+}
+
+.admin-border {
+    border: 1px transparent solid;
+    border-top-left-radius: 30px;
+    background-color: rgba(141, 147, 148, 0.849) !important; 
+}
+
+.productos-border {
+    border: 1px transparent solid;
+    background-color: rgba(141, 147, 148, 0.849) !important ;
+}
+
+.tracking-border {
+    border: 1px transparent solid;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(141, 147, 148, 0.849) !important ;
+}
+
+.boton-borrar {
+    background-color: $azul;
+    border-radius: 5px;
+}
+
+.container-botones {
+    padding-top: 6px !important;
+}
+
+/* BOTON ENVIAR/GUARDAR */
+
+.admin-btn-enviar {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "BentonBlack" !important;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: $azul;
+}
+
+  .admin-btn-enviar:active {
+    top: 2px;
+}
+
+.label-admin {
+    background-color: white;
+    border: solid 2px $azul;
+    color: grey;
+    font-size: 18px;
+    padding: 5px;
+    font-family: "BentonBook" !important;
+}
+
+.label-container {
+    border-right: solid 1px rgb(187, 185, 185);
+}
+
+.info-admin {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 14px !important;
+    color: white;
+    font-family: "BentonBook" !important;
+}
+
+.botones-usuarios-registrados {
+    font-size: 10px !important;
+}
+
+.boton-editar {
+    background-color: white !important;
+}

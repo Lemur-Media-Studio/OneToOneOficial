@@ -1,0 +1,53 @@
+.customers-bg {
+    background-image: url(../img/fondo-puerto.jpg);
+}
+
+.customers-bienvenidos{
+    font-family: SuperFlyOne !important;
+    font-size: 150px !important;
+    color: $azul;
+    padding-top: 150PX !important;
+}
+
+.background-opaco {
+    background-color: rgb(255, 255, 255, 0.9);
+    border: 1px transparent;
+    border-radius: 40px;
+    width: 25% !important;
+
+    .bienvenidos-gracias {
+        font-family: BentonMedium !important;
+        font-size: 25px !important;
+        color: $azul !important;
+    }
+
+    p {
+        font-family: BentonBook !important;
+        font-size: 22px !important;
+        color: $azul !important;
+    }
+
+    .login-iniciar-bienvenidos {
+        width: 70% !important;
+        font-family: BentonBlack !important;
+        font-size: 28px !important;
+        margin-top: -15px;
+        margin-bottom: 10px;
+        background-color: $azul;
+        border-radius: 35px;
+    }
+}
+
+.imagen-whatsapp {
+    position: sticky !important;
+    filter: drop-shadow(0 0 0.5rem black);
+    padding: 200px 20px 0 0 !important;
+}
+
+/* sticky
+    position: -webkit-sticky;
+    position: sticky;
+    top: 870px !important;
+    right: 20px;
+    float: right;
+*/

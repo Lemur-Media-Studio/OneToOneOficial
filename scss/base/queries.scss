@@ -1,0 +1,148 @@
+/* MOBILE STYLES */
+@media only screen and (max-width: 450px) {
+
+    /* BIENVENIDOS */
+    .body-bienvenidos {
+        background-image: url(../img/fondo-mobile.png) !important;
+        background-size: cover !important;
+        background-position-y: 0px !important;
+    }
+
+    .logo-one {
+        height: 40px !important;
+    }
+
+    .customers-bienvenidos {
+        font-family: "SuperFlyOne" !important;
+        font-size: 100px !important;
+        color: $azul;
+    }
+
+    .background-opaco {
+        background-color: rgb(255, 255, 255, 0.9);
+        border: 1px transparent;
+        border-radius: 40px;
+        width: 85% !important;
+
+        .bienvenidos-gracias {
+            font-family: "BentonMedium" !important;
+            font-size: 16px !important;
+            color: $azul !important;
+        }
+
+        p {
+            font-family: "BentonBook" !important;
+            font-size: 14px !important;
+            color: $azul !important;
+        }
+
+        .login-iniciar-bienvenidos {
+            width: 50% !important;
+            font-family: "BentonBlack" !important;
+            font-size: 14px !important;
+            margin-top: -15px;
+            margin-bottom: 10px;
+            background-color: $azul;
+            border-radius: 35px;
+        }
+    }
+
+    .imagen-whatsapp {
+        margin-top: 40%;
+        margin-right: 20px;
+        position: sticky !important;
+        filter: drop-shadow(0 0 0.5rem black);
+    }
+
+    /* calculadora */
+
+    .titulo-calculadora {
+        font-size: 23px !important;
+    }
+
+    .parrafo-calculadora {
+        font-size: 16px !important;
+    }
+
+    .subtitulo-calculadora {
+        font-size: 16px !important;
+    }
+
+    .titulo-inputs-calculadora {
+        font-size: 16px !important;
+    }
+
+    .boton-calculadora {
+        margin: 0px 12px !important;
+    }
+
+    .opciones-box-input {
+        font-size: 16px !important;
+    }
+
+    .subtitulo-inputs-calculadora {
+        font-size: 14px !important;
+    }
+
+    .boton-calculadora {
+        font-size: 15px !important;
+    }
+
+    .titulo-accordion {
+        font-size: 25px !important;
+    }
+
+    .accordion-body {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+    .boton-calculadora {
+        margin: 0px 15px !important;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MACBOOK PRO 13" - NOTEBOOKS STYLES */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+    /* BIENVENIDOS */
+    .customers-bienvenidos {
+        font-family: "SuperFlyOne" !important;
+        font-size: 160px !important;
+        color: $azul;
+    }
+
+    .background-opaco {
+        background-color: rgb(255, 255, 255, 0.9);
+        border: 1px transparent;
+        border-radius: 40px;
+        width: 35% !important;
+        padding: 20px 0 !important;
+
+        .bienvenidos-gracias {
+            font-family: "BentonMedium" !important;
+            font-size: 22px !important;
+            color: $azul !important;
+        }
+
+        p {
+            font-family: "BentonBook" !important;
+            font-size: 18px !important;
+            color: $azul !important;
+        }
+
+        .login-iniciar-bienvenidos {
+            width: 50% !important;
+            font-family: "BentonBlack" !important;
+            font-size: 20px !important;
+            margin-top: -15px;
+            margin-bottom: 10px;
+            background-color: $azul;
+            border-radius: 35px;
+        }
+    }
+}
+

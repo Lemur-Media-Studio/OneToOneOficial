@@ -1,0 +1,26 @@
+/* progress bar */
+.section-tracking {
+    padding-top: 110px !important;
+    padding-bottom: 170px;
+}
+
+progress {
+    width: 1115px;
+    height: 25px;
+    background: transparent;
+}
+
+progress::-webkit-progress-value {
+    background: #002A3C;
+    border-radius: 20px;
+    transition: width 2.5s ease-in-out;
+}
+
+progress::-moz-progress-bar {
+    background: lightcolor;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 20px;
+}

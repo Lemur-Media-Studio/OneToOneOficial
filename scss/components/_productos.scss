@@ -1,0 +1,91 @@
+.bienvenido-usuario {
+    background-color: $beige-claro !important;
+    padding-top: 84px;
+}
+
+.usuario {
+    padding-bottom: 5px;
+}
+
+.productos-titulo {
+    font-family: "BentonBlack" !important;
+    color: $azul;
+    font-size: 35px !important;
+    position: relative;
+    left: 50px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.body-productos {
+    background-color: #fff !important;
+    background-image: none !important;
+}
+
+/* Datos para realizar la compra */
+
+.container-datos {
+    border: solid 3px $azul !important;
+}
+
+.info-productos {
+    font-size: 20px;
+    font-family: "BentonBook";
+}
+
+/* ordenes de compra */
+.seccion-productos {
+    position: relative;
+    bottom: 40px;
+}
+
+/* cards productos */
+
+.card-productos {
+    background-color: rgb(230, 230, 224) !important;
+}
+
+.titulo-trayecto {
+    font-size: 20px;
+    padding: 40px 0px;
+    position: relative;
+    top: 5px;
+}
+
+.producto-card {
+    text-align: left !important;
+}
+
+.boton-azul-productos {
+    background-color: $azul !important;
+    padding: 3px 40px !important;
+    border-radius: 8px !important;
+}
+
+.boton-beige-productos {
+    background-color: $beige-claro !important;
+    color: white !important;
+    padding: 3px 40px !important;
+    border-radius: 8px !important;
+}
+
+.img-qr {
+    height: 125px !important;
+}
+
+.linea-blanco-productos {
+    border-left: 3px white solid;
+}
+
+.linea-blanco-right {
+    border-right: 3px white solid;
+}
+
+/* whatsapp logo */
+
+.logo-sticky {
+    position: sticky !important;
+    top: 870px !important;
+    right: 20px !important;
+    float: right !important;
+}
